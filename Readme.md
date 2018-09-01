@@ -27,21 +27,6 @@ theme_set(theme_bw(base_size=12))
 library(dplyr)
 ```
 
-    ## Warning: package 'dplyr' was built under R version 3.4.2
-
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
-
-### Statistical analysis
-
 ``` r
 # Upload the Dataset 
 pubmed <- read.csv("pubmed.csv", stringsAsFactors = FALSE)
