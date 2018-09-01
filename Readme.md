@@ -1,7 +1,6 @@
 So you think you can get Published?
 ================
-
-It is no doubt that research is the necessary component that fuels critical thinking, innovation, and enhancement of humanity. Countries such as the United States, Great Britain, Germany, and China dominate the medical research world with the plethora of influential Medical Journals present in their respective countries. A common denominator in the success of these medical research giants is the fact that most of their papers are in English. The purpose of this project is to determine if higher medical papers in english and geographic location can help a country's ability to publish more papers in more medical journals. The results will help assess the impact of the English language and location on how a country can be included in more journals and thus, be more perverse in the Medical Research world.
+Countries such as the United States, Great Britain, Germany, and China dominate the medical research world with the plethora of influential Medical Journals present in their respective countries. This project reveals the secret ingridient for a country to be more perverse in the Medical Research world.
 
 ### Statistical analysis
 
