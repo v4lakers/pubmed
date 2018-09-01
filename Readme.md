@@ -14,6 +14,16 @@ python pubmed.py
 ### Statistical analysis
 
 Once the data has been aquired, we can run some analysis in R.
+
+```{r global_options, include=TRUE}
+# Packages to Load
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5)
+library(ggplot2)
+theme_set(theme_bw(base_size=12))
+library(dplyr)
+```
+
 ``` r
 # Upload the Dataset 
 pubmed <- read.csv("pubmed.csv", stringsAsFactors = FALSE)
