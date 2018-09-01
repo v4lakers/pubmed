@@ -37,8 +37,6 @@ From the test, we can see that Country (location) is significant in explaining v
 ### Plot 1
 
 ``` r
-# R code for plot 1 goes here
-
 # Use geom_point to make a Scatterplot of Amount_English and Unique_Journals and colors the points by country
 ggplot(pubmed, aes(x=Amount_English, y= Unique_Journals, color = Country)) + geom_point() +
   # Add a title
@@ -61,8 +59,6 @@ This scatterplot shows a positive relationship between the amount of english pap
 ### Plot 2
 
 ``` r
-# R code for plot 2 goes here
-
 # Use geom_line to make a Time Series of Unique_Journal count from 2012-2017 for each year
 ggplot(pubmed, aes(x=Year, y=Unique_Journals, color = Country))+geom_line() + 
   # Add Country name to the ends of each line
