@@ -82,7 +82,8 @@ ggplot(pubmed, aes(x=Year, y=Unique_Journals, color = Country))+geom_line() +
   xlab("Year") + ylab("Unique Journals Appeared In")
 ```
 
-<img src="pubmed_files/figure-markdown_github/unnamed-chunk-3-1.png" style="display: block; margin: auto;" /> The time series shows that countries typically have similar amounts of unique journal appearances from year to year with the exception of South Korea. In 2017, South Korea jumped from about 25 unique appearances to 100 which was seen as the outlier point in the previous visualization. We also see that countries like Spain and Canada, which happen to be near medical research giants such as Great Britain and U.S.A respectivley, consistnely have higher Unique Journal Appearances than Colombia and Algeria which are two countries that are quite some ways from the medical research giants mentioned in the Introduction of this project. This is ofcourse speculation, and we do not have enough data to be certain of this claim.
+<img src="pubmed_files/figure-markdown_github/unnamed-chunk-3-1.png" style="display: block; margin: auto;" /> 
+The time series shows that countries typically have similar amounts of unique journal appearances from year to year with the exception of South Korea. In 2017, South Korea jumped from about 25 unique appearances to 100 which was seen as the outlier point in the previous visualization. We also see that countries like Spain and Canada, which happen to be near medical research giants such as Great Britain and U.S.A respectivley, consistnely have higher Unique Journal Appearances than Colombia and Algeria which are two countries that are quite some ways from the medical research giants mentioned in the Introduction of this project. This is ofcourse speculation, and we do not have enough data to be certain of this claim.
 
 ### Concluding Discussion
 
