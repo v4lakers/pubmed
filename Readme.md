@@ -64,7 +64,7 @@ cor(pubmed$Amount_English, pubmed$Unique_Journals)
 
     ## [1] 0.9106949
 
-This scatterplot shows a positive relationship between the amount of english papers a country has and how many unique journals the country appears in. This relationship can be further seen in the correlation of .81 between the two variables. In other words, the more papers in english, the better chance a country has to be featured in more medical journals. It is also important to note the outlier in the top right. This point can attest to a high r score, but even without this point, there seems to be a general trend between increasing amounts of english papers leading to more unique journals appeared in. We can see that countries like Algeria and Colmbia have low unique jorunal appeareances and less papers in english. On the other hand, countries like Canada have more papers in english and more appearances in unique journals.
+This scatterplot shows a positive relationship between the amount of english papers a country has and how many unique journals the country appears in. This relationship can be further seen in the correlation of .91 between the two variables. In other words, the more papers in english, the better chance a country has to be featured in more medical journals. It is also important to note the outlier in the top right. This point can attest to a high r score, but even without this point, there seems to be a general trend between increasing amounts of english papers leading to more unique journals appeared in. We can see that countries like Algeria and Colmbia have low unique jorunal appeareances and less papers in english. On the other hand, countries like Canada have more papers in english and more appearances in unique journals.
 
 ### Plot 2
 
