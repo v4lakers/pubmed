@@ -37,13 +37,13 @@ summary(myanova)
 ```
 
     ##                Df Sum Sq Mean Sq F value   Pr(>F)    
-    ## Country         4   5138    1285   14.33 1.49e-05 ***
-    ## Amount_English  1   4142    4142   46.22 1.72e-06 ***
-    ## Residuals      19   1703      90                     
+    ## Country         4   5746    1437   17.56 7.39e-07 ***
+    ## Amount_English  1   4013    4013   49.05 3.05e-07 ***
+    ## Residuals      24   1963      82                     
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
-*From the test, we can see that Country (location) is significant in explaining variation in Unique Journal Count (df = 4, F= 18.63, p &lt; .05). Additionally, we see that Amount\_English (how many papers a country puts out in english) is significant in explaining varaition in Unique Journal Count for a country (df = 1, F= 48.58, p &lt; .05).*
+From the test, we can see that Country (location) is significant in explaining variation in Unique Journal Count (df = 4, F= 18.63, p &lt; .05). Additionally, we see that Amount\_English (how many papers a country puts out in english) is significant in explaining varaition in Unique Journal Count for a country (df = 1, F= 48.58, p &lt; .05).
 
 ### Plot 1
 
@@ -63,7 +63,7 @@ ggplot(pubmed, aes(x=Amount_English, y= Unique_Journals, color = Country)) + geo
 cor(pubmed$Amount_English, pubmed$Unique_Journals)
 ```
 
-    ## [1] 0.875527
+    ## [1] 0.7940422
 
 This scatterplot shows a positive relationship between the amount of english papers a country has and how many unique journals the country appears in. This relationship can be further seen in the correlation of .81 between the two variables. In other words, the more papers in english, the better chance a country has to be featured in more medical journals. It is also important to note the outlier in the top right. This point can attest to a high r score, but even without this point, there seems to be a general trend between increasing amounts of english papers leading to more unique journals appeared in. We can see that countries like Algeria and Colmbia have low unique jorunal appeareances and less papers in english. On the other hand, countries like Canada have more papers in english and more appearances in unique journals.
 
