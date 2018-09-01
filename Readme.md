@@ -19,7 +19,7 @@ python pubmed.py
 
 Once the data has been aquired, we can run some analysis in R.
 
-```{r global_options, include=TRUE}
+```r
 # Packages to Load
 library(knitr)
 opts_chunk$set(fig.align="center", fig.height=4, fig.width=5)
